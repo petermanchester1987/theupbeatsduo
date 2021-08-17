@@ -8,7 +8,7 @@ const PerksModule = () => {
     <PerksModuleStyles>
       <StaticImage
         className="perks__image--bg"
-        src="../../images/microphone.jpg"
+        src="../../images/microphone.jpeg"
         alt="The Upbeats Duo party band microphone"
         layout="constrained"
         placeholder="tracedSVG"
