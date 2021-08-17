@@ -8,12 +8,12 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Barcadia",
-    description: "A super-fast site using GatsbyJS",
-    author: "Morgan Baker",
-    twitterUsername: "@dave",
+    title: "The Upbeats Music Duo",
+    description: "An energetic and established live party duo",
+    author: "Peter & Rachel Manchester",
+    twitterUsername: "@theupbeatsduo",
     image: "/yellow-metal-design-decoration.jpg",
-    siteUrl: "https://barcadia.netlify.com",
+    siteUrl: "https://theupbeatsduo.com",
   },
   /* Your site config here */
   plugins: [
@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://barcadia.netlify.com",
-        sitemap: "https://barcadia.netlify.com/sitemap.xml",
+        host: "http://theupbeatsduo.com",
+        sitemap: "http://theupbeatsduo.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },

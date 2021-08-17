@@ -11,7 +11,7 @@ const contact = () => {
       <SimpleBanner title="Get in touch">
         <StaticImage
           className="banner__image"
-          src="../images/macbook-dark.jpg"
+          src="../images/the-upbeats-music-duo-front-cover.jpg"
           alt="Apple Macbook Dark"
         />
       </SimpleBanner>

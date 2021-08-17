@@ -108,6 +108,8 @@ export const ProductsStyles = styled.section`
       bottom: 0;
       z-index: 1;
       transition: transform 0.3s ease;
+
+
     }
 
     &--content {

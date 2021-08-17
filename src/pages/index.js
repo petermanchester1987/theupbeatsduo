@@ -9,15 +9,13 @@ import Features from "../components/Features/Features"
 const Index = () => {
   return (
     <>
-      <Seo title="Home" />
+      <Seo title="Party Band Maidenhead &amp; Windsor" />
       <BannerModule
-        title="Barcadia"
-        subTitle="A product based template system for GatsbyJS"
+        title="The Upbeats Music Duo"
+        subTitle="An energetic and established live party duo"
       />
       <BasicTextModule />
-      <PerksModule>
-        <Perk title="The Title" content="The content" />
-      </PerksModule>
+      <PerksModule />
       <Features />
     </>
   )

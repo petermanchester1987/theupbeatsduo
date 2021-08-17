@@ -19,6 +19,21 @@ export const BannerModuleStyles = styled.section`
     bottom: 0;
     right: 0;
     z-index: 1;
+
+    @media screen and (max-width: 578px ) {
+      bottom: 50%;
+    }
+
+     &::after {
+       content: '';
+       position: absolute;
+       top: 0;
+        left: 0;
+        height: 100%;
+        width:100%;
+        z-index: 1;
+        background-color: rgba( 0,0,0,0.35);
+     }
   }
 
   .banner__content {

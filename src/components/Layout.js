@@ -1,11 +1,11 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components"
-import "@fontsource/heebo"
+import "@fontsource/raleway"
 
 const GlobalStyle = createGlobalStyle`
 :root {
   --background: #000;
-  --primary: #ffc400;
+  --primary: #f2802e;
   --bannerTitle: 34px;
   --bannerSubTitle: 20px;
   --borderSpacing: 30px;
@@ -14,6 +14,8 @@ const GlobalStyle = createGlobalStyle`
   --h2: 20px;
   --p: 15px;
   --blockquote: 20px;
+  --paddingLarge: 15%;
+  --paddingStd: 7%;
 
   @media(min-width:375px) {
     --bannerTitle: 42px;
@@ -64,7 +66,7 @@ const GlobalStyle = createGlobalStyle`
 
 
 body {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -165,11 +167,11 @@ button.btn {
   }
 
   .section-padding {
-    padding: var(--paddingStd) var(--paddingBorder);
+    padding: var(--paddingStd) var(--paddingStd);
   }
   
   .section-padding--large {
-    padding: var(--paddingLarge) var(--paddingBorder);
+    padding: var(--paddingLarge) var(--paddingLarge);
   }
 `
 

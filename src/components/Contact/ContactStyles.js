@@ -50,4 +50,8 @@ export const ContactStyles = styled.section`
   textarea {
     margin-bottom: 2.125rem;
   }
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
 `

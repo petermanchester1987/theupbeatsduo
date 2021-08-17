@@ -1,45 +1,49 @@
 import React from "react"
 import {
-  FaFacebookSquare as Facebook,
   FaTwitterSquare as Twitter,
-  FaInstagram as Instagram,
-  FaLinkedin as Linkedin,
+  FaEnvelope,
+  FaSoundcloud,
+  FaYoutube,
 } from "react-icons/fa"
 
 export const menuItems = [
   {
     path: "/",
-    text: "home",
+    text: "Home",
   },
   {
-    path: "/products",
-    text: "products",
+    path: "/products/",
+    text: "Bookings",
   },
   {
-    path: "/blog",
-    text: "blog",
+    path: "/blogs/",
+    text: "blogs",
   },
   {
-    path: "/contact",
+    path: "/repertoire/",
+    text: "repertoire",
+  },
+  {
+    path: "/contact/",
     text: "contact",
   },
 ]
 
 export const socialItems = [
   {
-    path: "www.facebook.com",
-    icon: <Facebook />,
+    path: "mailto:theupbeatsmusicduo@gmail.com",
+    icon: <FaEnvelope />,
   },
   {
-    path: "www.twitter.com",
+    path: "www.twitter.com/theupbeatsduo",
     icon: <Twitter />,
   },
   {
-    path: "www.instagram.com",
-    icon: <Instagram />,
+    path: "https://soundcloud.com/user-996705933",
+    icon: <FaSoundcloud />,
   },
   {
-    path: "www.linkedin.com",
-    icon: <Linkedin />,
+    path: "https://www.youtube.com/watch?v=pf4O9eDGHm4",
+    icon: <FaYoutube />,
   },
 ]

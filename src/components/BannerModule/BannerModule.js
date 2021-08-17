@@ -10,6 +10,8 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
     navigate("#topContent")
   }
 
+  const imageOptions = { cropFocus: 'attention' };
+
   return (
     <>
       <BannerModuleStyles>
@@ -19,10 +21,11 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
           <StaticImage
             className="banner__image"
             imgClassName="banner__image--content"
-            src="../../images/macbook-color.jpg"
+            src="../../images/the-upbeats-duo-party-band.jpg"
             alt="Banner Image"
-            layout="fullWidth"
+            layout="constrained"
             placeholder="blurred"
+            transformOptions={{ imageOptions }}
           />
         )}
 
@@ -37,7 +40,7 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
             {subTitle && <h2>{subTitle}</h2>}
             {price && (
               <h2 className="price">
-                £{price}
+                from £{price}
                 <span style={{ color: "var(--primary)" }}>.</span>
               </h2>
             )}

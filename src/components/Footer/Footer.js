@@ -4,6 +4,9 @@ import { menuItems, socialItems } from "../../constants/links"
 import { FooterStyles } from "./FooterStyles"
 
 const Footer = () => {
+
+  const current = new Date();
+  const currentYear = current.getFullYear();
   return (
     <FooterStyles>
       <div className="container">
@@ -39,14 +42,14 @@ const Footer = () => {
           </ul>
         </div>
         <div className="copyright">
-          <p>
+          <p>&copy; {currentYear} The Upbeats Duo.
             Designed & developed by{" "}
             <a
-              href="https://www.morganbaker.dev"
+              href="https://www.petermanchesterweb.com"
               target="_blank"
               rel="noreferrer"
             >
-              Morgan Baker
+              Peter Manchester
             </a>
             <span>.</span>
           </p>

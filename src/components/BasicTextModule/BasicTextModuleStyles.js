@@ -58,4 +58,7 @@ export const BasicTextModuleStyles = styled.section`
       font-size: 30px;
     }
   }
+  .button {
+    margin-top: 15px;
+  }
 `

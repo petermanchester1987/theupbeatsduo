@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import MenuContext from "../MenuContext"
 import { NavModuleStyles } from "./NavModuleStyles"
 import { motion } from "framer-motion"
@@ -11,6 +12,9 @@ import {
   menuList,
 } from "./NavAnim"
 import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
+
+  {/* {title}
+  <span>.</span> */}
 
 const NavModule = () => {
   const [isOpen, setNav] = useContext(MenuContext)
@@ -49,8 +53,13 @@ const NavModule = () => {
           {title && (
             <div className="logo">
               <Link to="/">
-                {title}
-                <span>.</span>
+                <StaticImage
+                  className="upbeats-logo"
+                  src="../../images/logos/the-upbeats-logo-gradient.png"
+                  alt="The Upbeats Music Duo logo"
+                  layout="constrained"
+                  placeholder="tracedSVG"
+                />
               </Link>
             </div>
           )}

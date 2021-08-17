@@ -46,11 +46,11 @@ const Blog = props => {
   return (
     <>
       <Seo title="Blogs" />
-      <SimpleBanner title="Trade news">
+      <SimpleBanner title="The Upbeats Duo Party Band Blog">
         <StaticImage
           className="banner__image"
-          src="../images/iphone-camera.jpg"
-          alt="Apple iPhone camera"
+          src="../images/the-upbeats-duo-party-band-garden-party.jpeg"
+          alt="The Upbeats Duo Party Band Garden Party"
         />
       </SimpleBanner>
       <BlogItems>

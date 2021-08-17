@@ -7,11 +7,11 @@ import { StaticImage } from "gatsby-plugin-image"
 const products = () => {
   return (
     <>
-      <Seo title="Products" />
-      <SimpleBanner title="All Products">
+      <Seo title="Booking" />
+      <SimpleBanner title="Bookings">
         <StaticImage
           className="banner__image"
-          src="../images/iphone-face-down.jpg"
+          src="../images/The-Upbeats-Duo-Photo-web-optimized-wide.jpeg"
           alt="Apple iPhone face down"
         />
       </SimpleBanner>

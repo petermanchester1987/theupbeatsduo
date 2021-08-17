@@ -49,11 +49,18 @@ export const NavModuleStyles = styled.nav`
     font-weight: 700;
     font-size: 20px;
     letter-spacing: -0.5px;
+    width: 90%;
+    max-width: 900px;
+    text-align: right;
 
     a {
       color: #fff;
       text-decoration: none;
       transition: color 0.3s ease;
+    }
+
+    .upbeats-logo {
+      width: 90%;
     }
 
     @media (min-width: 1024px) {
