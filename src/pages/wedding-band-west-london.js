@@ -19,7 +19,7 @@ const Blog = () => {
       <SimpleBanner title="Wedding Band West London">
         <StaticImage
           className="banner__image"
-          src="../images/the-upbeats-duo-wedding-band.jpeg"
+          src="../images/the-upbeats-duo-party-band.jpeg"
           alt="The Upbeats Duo Party Wedding band"
         />
       </SimpleBanner>
@@ -29,11 +29,11 @@ const Blog = () => {
           <article className="blogsingle__content">
           The Upbeats Duo is West London's choice party and wedding band.
           <br/>
-            Organising a wedding is extremely stressful, but there is one thing that shouldn't be... choosing a wedding band!
             <br/>
-            Choosing a band for your wedding as well as (or instead of) a DJ is a fantastic choice. The beauty of The Upbeats duo is that we are a small band (of two), so are much more affordable than a larger band. But we use professional tracks, loops, synths and effects to create a really massive sound. Having a live band play your first dance is a really memorable event and we offer to learn your first dance song for free!
+            Choosing a band for your wedding as well as (or instead of) a DJ is a fantastic choice. <br/><br/>
+            The beauty of The Upbeats duo is that we are a small band (of two), so are much more affordable than a larger band. However we use professional tracks, loops, synths and effects to create a really massive sound. Having a live band play your first dance is a really memorable event and we offer to learn your first dance song for free!
             <br/>
-            Our excellent party and wedding band have performed in venues in Maidenhead, Windsor, Twyford, Ascot, Reading, Newbury, Bracknell and Wokingham.
+            Our excellent party and wedding band have performed in venues in Chiswick, Richmond, Notting Hill, Park Royal, Hammersmith, Kensington, Southall, Ealing, Hounslow, Brent and Acton.
             <br/>
             The Upbeats Duo are well-acquainted with West London venues and because we live nearby you have the added bonus of not having to pay for our travel or accommodation. 
             <br/>
@@ -41,7 +41,8 @@ const Blog = () => {
             <br/>
             Remember, as well as your first dance will learn any extra songs you want for free. 
             <br/>
-            View our setlist here
+            <br/>
+            View our setlist <Link to="/repertoire">here</Link>
             <br/>
             To enquire about booking this awesome band click the contact button below. With thousands of shows played…With The Upbeats Duo, you’re in safe hands. 
             <div className="blogsingle__back">
