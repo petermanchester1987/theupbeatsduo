@@ -34,7 +34,13 @@ const BasicTextModule = () => {
         We are based in Berkshire but travel everywhere! We regularly gig in Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
         </p>
 
-        <Button text="Book Us Now" as={Link} to="/contact" />
+        <Button text="Book us now" as={Link} to="/contact" />
+
+        <br/>
+        <br/>
+
+        <Button text="Listen to us" as={Link} to="/repertoire" />
+
 
       </div>
     </BasicTextModuleStyles>
