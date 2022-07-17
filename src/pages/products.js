@@ -11,8 +11,8 @@ const products = () => {
       <SimpleBanner title="Bookings">
         <StaticImage
           className="banner__image"
-          src="../images/The-Upbeats-Duo-Photo-web-optimized-wide.jpeg"
-          alt="Apple iPhone face down"
+          src="../images/the-upbeats-green-no-logo.jpeg"
+          alt="The Upbeats Duo party band"
         />
       </SimpleBanner>
       <Features />

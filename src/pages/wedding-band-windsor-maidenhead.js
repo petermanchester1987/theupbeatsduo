@@ -19,7 +19,7 @@ const Blog = () => {
       <SimpleBanner title="Wedding Band Windsor &amp; Maidenhead">
         <StaticImage
           className="banner__image"
-          src="../images/the-upbeats-duo-party-band.jpeg"
+          src="../images/the-upbeats-duo-party-band-2.jpeg"
           alt="The Upbeats Duo Party Wedding band"
         />
       </SimpleBanner>

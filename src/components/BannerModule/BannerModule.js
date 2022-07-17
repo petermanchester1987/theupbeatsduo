@@ -21,7 +21,7 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
           <StaticImage
             className="banner__image"
             imgClassName="banner__image--content"
-            src="../../images/the-upbeats-duo-party-band.jpeg"
+            src="../../images/the-upbeats-duo-party-band-2.jpeg"
             alt="Banner Image"
             layout="constrained"
             placeholder="blurred"

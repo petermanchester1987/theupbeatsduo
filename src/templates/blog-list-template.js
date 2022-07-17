@@ -49,7 +49,7 @@ const Blog = props => {
       <SimpleBanner title="The Upbeats Duo Party Band Blog">
         <StaticImage
           className="banner__image"
-          src="../images/the-upbeats-duo-party-band-garden-party.jpeg"
+          src="../images/the-upbeats-duo-party-band.jpeg"
           alt="The Upbeats Duo Party Band Garden Party"
         />
       </SimpleBanner>
