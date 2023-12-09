@@ -9,7 +9,7 @@ import Features from "../components/Features/Features"
 const Index = () => {
   return (
     <>
-      <Seo title="Party Band Maidenhead &amp; Windsor" />
+      <Seo title="Party Band" />
       <BannerModule
         title="The Upbeats Music Duo"
         subTitle="An energetic and established live party duo"
@@ -17,7 +17,7 @@ const Index = () => {
       <BasicTextModule />
       <PerksModule />
       <Features />
-    </>
+      </>
   )
 }
 
