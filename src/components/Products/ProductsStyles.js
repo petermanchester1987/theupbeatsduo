@@ -172,6 +172,10 @@ export const ProductsStyles = styled.section`
       &:nth-of-type(3n + 0) {
         margin-right: 0;
       }
+
+      &:nth-of-type(3n + 1) {
+        margin-left: 0px;
+      }
     }
 
     &:nth-child(1) {
