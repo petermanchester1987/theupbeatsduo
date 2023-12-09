@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaSoundcloud,
   FaYoutube,
+  FaInstagram
 } from "react-icons/fa"
 
 export const menuItems = [
@@ -35,8 +36,8 @@ export const socialItems = [
     icon: <FaEnvelope />,
   },
   {
-    path: "www.twitter.com/theupbeatsduo",
-    icon: <Twitter />,
+    path: "https://www.instagram.com/theupbeatsduo/",
+    icon: <FaInstagram />,
   },
   {
     path: "https://soundcloud.com/user-996705933",
