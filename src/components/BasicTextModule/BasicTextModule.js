@@ -11,7 +11,7 @@ const BasicTextModule = () => {
           The Upbeats Music Duo are a high quality party band available for hire.
         </h2>
         <p style={{ marginBottom: "60px" }}>
-        The Upbeats Duo are the number one party duo available for hire in the Southeast!
+        The Upbeats Duo are the number one party duo available for hire in the UK!
         <br/>
         If you want a big party band sound from a fantastic duo, The Upbeats are everything you could have hoped for.
         <br/>
@@ -31,7 +31,7 @@ const BasicTextModule = () => {
         We have been gigging professionally for nearly a decade and have performed thousands of shows! If you want a reliable and fun small band with a big party sound, The Upbeats Duo are the best choice!
         <br/>
         <br/>
-        We are based in Berkshire but travel everywhere! We regularly gig in Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
+        We are currently based in the North West of England but travel everywhere! We regularly gig in Greater Manchester, Merseyside, Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
         </p>
 
         <Button text="Book us now" as={Link} to="/contact" />
@@ -40,6 +40,11 @@ const BasicTextModule = () => {
         <br/>
 
         <Button text="Listen to us" as={Link} to="/repertoire" />
+
+        <br/>
+        <br/>
+
+        <Button text="Buy Our Album" as={Link} to="https://www.buymeacoffee.com/theupbeatsduo/e/157143" />
 
 
       </div>
