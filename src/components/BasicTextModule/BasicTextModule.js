@@ -44,7 +44,12 @@ const BasicTextModule = () => {
         <br/>
         <br/>
 
-        <Button text="Buy Our Album" as={Link} to="https://www.buymeacoffee.com/theupbeatsduo/e/157143" />
+        <Button text="Buy Us A Coffee" as={Link} to="https://www.buymeacoffee.com/theupbeatsduo/e/157143" />
+        
+        <br/>
+        <br/>
+
+        <Button text="Buy Our Album" as={Link} to="https://store.theupbeatsduo.com" />
 
 
       </div>

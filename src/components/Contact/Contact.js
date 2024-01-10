@@ -48,9 +48,9 @@ const Contact = () => {
           <label htmlFor="robo-field">Don’t fill this out if you’re a person: <input name="robo-field" /></label>
         </div>
 
-        <input onChange={handleChange} placeholder="Your name" type="text" name="name" />
-        <input onChange={handleChange} placeholder="Your email" type="email" name="email" />
-        <textarea onChange={handleChange} placeholder="Your message" name="message" rows="5"></textarea>
+        <input onChange={handleChange} placeholder="Your name" required type="text" name="name" />
+        <input onChange={handleChange} placeholder="Your email" required type="email" name="email" />
+        <textarea onChange={handleChange} required placeholder="Your message" name="message" rows="5"></textarea>
         <button className="btn" type="submit">
           Send Message
         </button>
