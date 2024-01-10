@@ -16,6 +16,10 @@ export const menuItems = [
     text: "repertoire",
   },
   {
+    path: "https://store.theupbeatsduo.com",
+    text: "store",
+  },
+  {
     path: "/contact/",
     text: "contact",
   },
