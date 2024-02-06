@@ -8,7 +8,7 @@ const BasicTextModule = () => {
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          The Upbeats Music Duo are a high quality party band available for hire.
+          The Upbeats Music Duo are a high quality party band currently working aboard the Norwegian Epic, but also available for private booking.
         </h2>
         <p style={{ marginBottom: "60px" }}>
         The Upbeats Duo are the number one party duo available for hire in the UK!
@@ -31,7 +31,7 @@ const BasicTextModule = () => {
         We have been gigging professionally for nearly a decade and have performed thousands of shows! If you want a reliable and fun small band with a big party sound, The Upbeats Duo are the best choice!
         <br/>
         <br/>
-        We are currently based in the North West of England but travel everywhere! We regularly gig in Greater Manchester, Merseyside, Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
+        We are currently working aboard ships, but whilst we're back in the UK we are based in the North West of England or London, but we travel everywhere! We regularly gig in Greater Manchester, Merseyside, Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
         </p>
 
         <Button text="Book us now" as={Link} to="/contact" />
