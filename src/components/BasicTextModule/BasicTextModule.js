@@ -10,6 +10,9 @@ const BasicTextModule = () => {
         <h2>
           The Upbeats Music Duo are a high quality party band currently working aboard the Norwegian Epic, but also available for private booking.
         </h2>
+        <br />
+        <Button text="Book us now" as={Link} to="/contact" />
+        <br />
         <p style={{ marginBottom: "60px" }}>
         The Upbeats Duo are the number one party duo available for hire in the UK!
         <br/>
@@ -27,6 +30,7 @@ const BasicTextModule = () => {
         We play classic, upbeat hits starting from current artists all the way back to the 60s, 70s, 80s, 90s and Noughties, including Pop, Funk, Rock Soul and many more. 
         With over 700 songs in our repertoire to choose from, The Upbeats are sure to keep your guests happy and get them dancing.
         <br/>
+        <Button text="Listen to us" as={Link} to="/repertoire" />
         <br/>
         We have been gigging professionally for nearly a decade and have performed thousands of shows! If you want a reliable and fun small band with a big party sound, The Upbeats Duo are the best choice!
         <br/>
@@ -44,7 +48,7 @@ const BasicTextModule = () => {
         <br/>
         <br/>
 
-        <Button text="Buy Us A Coffee" as={Link} to="https://www.buymeacoffee.com/theupbeatsduo/e/157143" />
+        <Button text="Buy Us A Coffee or Give Us A Tip!" as={Link} to="https://www.buymeacoffee.com/theupbeatsduo/e/157143" />
         
         <br/>
         <br/>
