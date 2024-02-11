@@ -32,18 +32,19 @@ const BasicTextModule = () => {
         <br/>
         <Button text="Listen to us" as={Link} to="/repertoire" />
         <br/>
+        <br/>
         We have been gigging professionally for nearly a decade and have performed thousands of shows! If you want a reliable and fun small band with a big party sound, The Upbeats Duo are the best choice!
         <br/>
         <br/>
         We are currently working aboard ships, but whilst we're back in the UK we are based in the North West of England or London, but we travel everywhere! We regularly gig in Greater Manchester, Merseyside, Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
         </p>
 
-        <Button text="Book us now" as={Link} to="/contact" />
+        <Button text="Booking" as={Link} to="/contact" />
 
         <br/>
         <br/>
 
-        <Button text="Listen to us" as={Link} to="/repertoire" />
+        <Button text="See Our Repertoire" as={Link} to="/repertoire" />
 
         <br/>
         <br/>
