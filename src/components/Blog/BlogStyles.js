@@ -47,6 +47,10 @@ export const BlogSingleStyles = styled.article`
   margin: 0 auto;
   box-sizing: content-box;
 
+  .blogsingle__title {
+    margin-top: 100px;
+  }
+
   .blogsingle {
     &__title {
       font-size: var(--h2);
