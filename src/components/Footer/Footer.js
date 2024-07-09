@@ -41,6 +41,12 @@ const Footer = () => {
             })}
           </ul>
         </div>
+        <div className="social__menu">
+          <ul>
+          <li><a href="https://www.poptop.uk.com/supplier/the-upbeats-duo/" target="_blank"><img src="https://www.poptop.uk.com/ranking/the-upbeats-duo/GoldPoptopFeaturedSupplierRating.png" width="160px" height="160px" /></a></li>
+          <li><a href="https://www.lastminutemusicians.com/members/theupbeatsduo.html" target="_blank"><img src="https://www.lastminutemusicians.com/images/v5/LMM-White.png" alt="The Upbeats Duo on Last Minute Musicians" width="160px" height="160px"></img></a></li>
+          </ul>
+        </div>
         <div className="copyright">
           <p>&copy; {currentYear} The Upbeats Duo.
             Designed & developed by{" "}
