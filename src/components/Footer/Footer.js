@@ -45,6 +45,10 @@ const Footer = () => {
           <ul>
           <li><a href="https://www.poptop.uk.com/supplier/the-upbeats-duo/" target="_blank"><img src="https://www.poptop.uk.com/ranking/the-upbeats-duo/GoldPoptopFeaturedSupplierRating.png" width="160px" height="160px" /></a></li>
           <li><a href="https://www.lastminutemusicians.com/members/theupbeatsduo.html" target="_blank"><img src="https://www.lastminutemusicians.com/images/v5/LMM-White.png" alt="The Upbeats Duo on Last Minute Musicians" width="160px" height="160px"></img></a></li>
+          <li>
+          {/*<!--Encore Button Generated 14th July 2024 at 11:23pm; Copyright Encore 2024-->*/}
+            <a href='https://encoremusicians.com/hire/pop-duos?utm_source=badge&utm_medium=web&utm_campaign=verified_badge&utm_content=green-large' target="_parent"><img src='https://encoremusicians.com/img/embeds/badge-green.svg' alt='Book The Upbeats Duo on Encore Musicians' width="160px" height="160px"/></a>
+            </li>
           </ul>
         </div>
         <div className="copyright">
