@@ -8,7 +8,7 @@ const BasicTextModule = () => {
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          The Upbeats Music Duo are a high quality party band currently working aboard the Norwegian Epic, but also available for private booking.
+          The Upbeats Music Duo are a high quality party band currently working aboard Ponant Cruises, but also available for private booking.
         </h2>
         <br />
         <Button text="Book us now" as={Link} to="/contact" />
@@ -37,6 +37,9 @@ const BasicTextModule = () => {
         <br/>
         <br/>
         We are currently working aboard ships, but whilst we're back in the UK we are based in the North West of England or London, but we travel everywhere! We regularly gig in Greater Manchester, Merseyside, Berkshire, London, Oxfordshire and Surrey, but travel all over the UK, EU and have literally performed around the world!
+        <br/>
+        <br/>
+        Recent clients include Norwegian Cruise Lines, P & O cruises and Windstar.
         </p>
 
         <Button text="Booking" as={Link} to="/contact" />
