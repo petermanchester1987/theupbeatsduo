@@ -49,6 +49,7 @@ const Footer = () => {
           {/*<!--Encore Button Generated 14th July 2024 at 11:23pm; Copyright Encore 2024-->*/}
             <a href='https://encoremusicians.com/hire/pop-duos?utm_source=badge&utm_medium=web&utm_campaign=verified_badge&utm_content=green-large' target="_parent"><img src='https://encoremusicians.com/img/embeds/badge-green.svg' alt='Book The Upbeats Duo on Encore Musicians' width="160px" height="160px"/></a>
             </li>
+            <li><a href="https://www.entertainersworldwide.com/the-upbeats-duo-profile-193914" title="View The Upbeats Duo - Duo Profile" target="_blank"><img src="https://www.entertainersworldwide.com/profile-badge/193914/ew-registered-s.png" alt="The Upbeats Duo - Manchester Duo for hire at Entertainers Worldwide" width="160px" height="160px"/></a></li>
           </ul>
         </div>
         <div className="copyright">
