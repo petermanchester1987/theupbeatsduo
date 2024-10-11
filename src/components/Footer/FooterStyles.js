@@ -91,6 +91,15 @@ export const FooterStyles = styled.footer`
     }
   }
 
+  .social__menu.wrap {
+
+  @media (max-width: 1024px) {
+          ul {
+     flex-wrap: wrap;
+        }
+
+}
+
   .copyright {
     font-size: 13px;
 
