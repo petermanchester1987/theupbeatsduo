@@ -59,10 +59,10 @@ const BasicTextModule = () => {
 
         <Button text="Buy Our Album" as={Link} to="https://store.theupbeatsduo.com" />
 
-        <br/>
-        <br/>
+        {/* <br/>
+        <br/> */}
 
-        <Button text="Join our mailing list!" as={Link} to="https://share-eu1.hsforms.com/1tAZYFnlFQJqH794bZEL5aQg4e4s" />
+        {/* <Button text="Join our mailing list!" as={Link} to="https://share-eu1.hsforms.com/1tAZYFnlFQJqH794bZEL5aQg4e4s" /> */}
 
       </div>
     </BasicTextModuleStyles>

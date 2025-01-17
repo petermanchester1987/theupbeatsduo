@@ -3,8 +3,10 @@ import Seo from "../components/SEO"
 import BannerModule from "../components/BannerModule/BannerModule"
 import BasicTextModule from "../components/BasicTextModule/BasicTextModule"
 import PerksModule from "../components/PerksModule/PerksModule"
-import Perk from "../components/PerksModule/Perk"
 import Features from "../components/Features/Features"
+import MailChimpForm from "../components/MailChimpForm/MailChimpForm"
+import YouTubeVideos from "../components/YouTube/YouTubeVideos"
+
 
 const Index = () => {
   return (
@@ -15,8 +17,10 @@ const Index = () => {
         subTitle="An energetic and established live party duo"
       />
       <BasicTextModule />
+      <MailChimpForm />
       <PerksModule />
       <Features />
+      <YouTubeVideos vid={1} />
       </>
   )
 }
